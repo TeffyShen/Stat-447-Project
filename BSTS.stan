@@ -1,14 +1,19 @@
 data {
   int<lower=0> N;
-  int<lower=0> K;
-  matrix[N, K] X;
+  matrix[N, 2] X;
   vector[N] y;
 }
 parameters {
   real alpha;
-  vector[K] beta;
+  real beta1;
+  real beta2;
   real<lower=0> sigma;
 }
 model {
-  y ~ normal(alpha + X * beta, sigma);
+  alpha ~ normal(0, 100);
+  beta1 ~ normal(0, 10);
+  beta2 ~ normal(0, 10);
+  sigma ~ normal(0, 50);
+
+  y ~ normal(alpha + X[,1] * beta1 + X[,2] * beta2, sigma);
 }
