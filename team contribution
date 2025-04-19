@@ -1,9 +1,13 @@
-Team Members:
+Team Contribution:
 Asteria Xu (56376452)
 Yufei Shen (29116514)
-We collaboratively selected the project theme and formulated the research problem.
+
+We collaboratively selected the project theme and formulated the research problem. 
 Asteria focused on writing the Introduction of the project while Yufei contributed to the Literature Review.
-We performed model implementation and data analysis individually for our respective sections.
-Specifically, we each handled preprocessing of the dataset independently. Asteria was responsible for the ARIMA model and the BSTS model using the bsts package, including their implementation, results, and discussion.
-Yufei focused on the BSTS model using the stan package, conducting the coding, analysis, and interpretation for that part.
+
+We performed model implementation and data analysis individually for our respective sections. 
+Specifically, we each handled preprocessing of the dataset independently. 
+Then Asteria was responsible for the ARIMA model and the BSTS model using the bsts package, including their implementation, results, and discussion;
+while Yufei focused on the BSTS model using the stan package, conducting the coding, analysis, and interpretation for that part.
+
 Throughout the project, we met and went to office hour regularly to align our progress and integrate our work into a cohesive final report.
