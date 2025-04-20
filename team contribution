@@ -10,4 +10,4 @@ Specifically, we each handled preprocessing of the dataset independently.
 Then Asteria was responsible for the ARIMA model and the BSTS model using the bsts package, including their implementation, results and discussion;
 while Yufei focused on the BSTS model using the stan package, conducting the coding, analysis and interpretation for that part.
 
-Throughout the project, we met and went to office hour regularly to align our progress and integrate our work into a cohesive final report.
+Throughout the project, we met and went to office hours regularly to align our progress and integrate our work into a cohesive final report.
